@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>함수(function)</title>
+  <style>
+    .data{
+      width:500px; margin:0 auto; border:1px solid black; padding:20px; text-align:center; font-size:3rem;
+    }
+  </style>
+</head>
+<body>
+  <label for="data1">자료1</label>
+  <input type="text" id="data1">
+  <br>
+  <label for="data2">자료2</label>
+  <input type="text" id="data2">
+  <br>
+  <input type="button" value="+" onclick="inPut();">
+  <input type="button" value="-" onclick="inPut();">
+  <input type="button" value="*" onclick="inPut();">
+  <input type="button" value="/" onclick="inPut();">
+  <br>
+  <label for="result">연산결과</label>
+  <input type="text" id="result">
+</body>
+
+<script>
+  function inPut(){
+    var data1 = Number(document.getElementById('data1').value);
+    var data2 = Number(document.getElementById('data2').value);
+    inResult(data1,data2)
+
+    switch(inResult){
+      case "+" :
+        var val1 = data1 + data2;
+        break;
+      case "-" :
+        var val1 = data1 - data2;
+        break;
+      case "*" :
+        var val1 = data1 * data2;
+        break;
+      case "/" :
+        var val1 = data1 / data2;
+        break;
+    }
+    outPut(val1)
+  }
+
+  function outPut(outData){
+    document.getElementById('result').value = outData;
+  }
+</script>
+</html>
