@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+/* footer */
+    .footer{
+      height:150px; padding:0 50px;
+      background:#f2f2f2;
+    }
+    .footer>.footer_logo{
+      float:left; width:180px; height:44px; margin-top:50px; background:url(./images/icon_set.png) no-repeat; 
+    }
+    .footer>.foot_txt{ 
+      float:right;
+    }
+    .footer>.foot_txt>ul>li{ 
+      display:inline-block; padding:50px 0 20px 55px;
+    }
+    .footer>.foot_txt>ul>li>a{
+      display:block;  font-weight: 500; color:#282828;
+    }
+
+    .footer>.foot_txt>span{
+      margin-left:163px;
+    }

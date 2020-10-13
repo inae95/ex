@@ -1,0 +1,65 @@
+@charset 'utf-8';
+
+    /* main_map */
+    .main_map{
+      height:440px; border-top:1px solid #f2f2f2; background: url(./images/campaign_main_map.png) no-repeat center; background-size:980px 400px;
+    }
+    .main_map>.map{
+      display:flex; flex-direction:row; justify-content:center; align-items:center; padding-top:89px;
+    }
+    .main_map>.map>ul:nth-child(2){
+      padding:0 153px 0 173px;
+    }
+    .main_map>.map>.map_tit01>li,
+    .main_map>.map>.map_tit01>li>.kor{
+      padding-bottom:29px; font-family:'noto sans korean'; font-weight:500; font-size:20px; color:#666666; line-height:32px;
+    }
+    .main_map>.map>.map_tit01>li>.small_eng{
+      font-family:'roboto'; font-weight:500; font-size:20px; color:#666666;
+    }
+    .main_map>.map>.map_tit01>li>.eng{
+      font-family:'roboto'; font-weight:bold; font-size:80px; color:#282828;
+    }
+    .main_map>.map>.map_tit01>li>.big_kor{
+      padding-left:10px; font-family:'noto sans korean'; font-weight:bold; font-size:30px; color:#282828;
+    }
+    .main_map>.button{
+      width:200px; height:50px; margin:85px auto;font-family:'Noto Sans Korean'; border-radius:7px; background:#fed929; text-align:center;
+    }
+    .main_map>.button>a{
+      font-weight:bold; font-size:16px; padding:15px 8px; line-height:50px; 
+    }
+    /* news */
+    .campaign{
+      height:586px;
+    }
+    .campaign>.title{
+      padding:72px 0 50px 50px;
+    }
+    .campaign>.title>a>.icon{
+      display: inline-block; width:20px; height:20px; background:url(./images/icon_set.png) no-repeat; border-radius:50px; background-position:-309px
+    }
+    .campaign>.title>a>.eng{
+      display: inline-block; font-weight:bold; font-size:30px;
+    }
+    .campaign>.campaign_all{
+      display: flex; padding:0 50px;
+    }
+    .campaign>.campaign_all>.campaign01:nth-child(2){
+      padding:0 20px;
+    }
+    .campaign01>.campaign.list{
+      height:315px;
+    }
+    .campaign01>.campaign.list>img{
+      width:380px; height:223px;
+    }
+    .campaign01>.campaign>.list.tit{
+      font-family:'noto sans'; font-weight:600; font-size:18px; color:#282828; padding:20px 0 15px 0; letter-spacing:-1px
+    }
+    .campaign01>.campaign.list>.button{
+      width:180px; height:40px; padding:5px 5px; border:1px solid #313235; border-radius:5px;
+    }
+    .campaign01>.campaign.list>.button>a{
+      padding:5px 10px; font-family:'noto sans'; font-weight:bold; font-size:18px; color:#282828; letter-spacing:-1px
+    }

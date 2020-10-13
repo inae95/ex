@@ -1,0 +1,152 @@
+@charset 'utf-8';
+
+/* banner */
+    .banner{
+      height:700px; border-top:1px solid #f2f2f2; margin:0 auto; position:relative;
+      }
+    .banner>.banner_tit{
+      text-align:center; padding-top:60px;
+    }
+    .banner>.banner_tit>h1{
+      font-size:80px; font-weight:bold;
+    }
+    .banner>.banner_tit>.main_tit{
+      font-weight:600; line-height:60px;
+    }
+    .banner>.banner_tit>h2{
+      font-weight:600; font-size:20px; color:#666666; line-height:37px;
+    }
+    .banner>.big{
+      width:100%; font-size:170px; font-weight:500; color:#999999; opacity: 0.1; text-align:center; position:absolute; left:0; top:270px;
+    }
+    .banner>.bg_animal{
+      width:100%; height:450px; margin:0 auto; background: url(../images/index_banner_animal.png) no-repeat bottom; background-size: contain;
+    }
+    .banner>.bg_animal:hover{
+      transform:translateY(30px); transition:0.4s;
+    }
+    /* about */
+    .about{
+      height:473px; 
+    }
+    .about>.container{
+      display:flex; flex-flow:row nowrap; align-items:center; height:100%
+    }
+    .about>.container>.about_bear>img,
+    .about>.container>.about_turtle>img{
+      width:300px; height:271px;
+    }
+    .about>.container>.about_turtle>img{
+      margin:0 100px 0 20px;
+    }
+    .about>.container>.about_txt{
+      width:280px; height:271px; display:flex; flex-flow:column nowrap; justify-content:space-between; 
+    }
+    .about>.container>.about_txt>.main_tit{
+      line-height:48px;
+    }
+    .about>.container>.about_txt>.main_txt{
+      line-height:32px;
+    }
+    .about>.container>.about_txt>.button{
+      width:200px; height:50px; font-family:'Noto Sans Korean'; border-radius:7px; background:#fed929; text-align:center;
+    }
+    .about>.container>.about_txt>.button>a{
+      font-weight:bold; font-size:16px; padding:15px 8px; line-height:50px; 
+    }
+    /* box_animal */
+    .box_animal{
+      height:450px;
+      background:#fed929;
+    }
+    .box_animal>.containe{
+      height:450px;
+    }
+    .box_animal>.container>.main_tit{
+      padding:90px 0 50px 0; text-align:center;
+    }
+    .box_animal>.container>ul{
+      display:flex; flex-flow:row nowrap;
+    }
+    .box_animal>.container>ul>li{
+      width:120px; height:180px; margin:0 30px 0 0; background:white; padding:20px;
+    }
+    .box_animal>.container>ul>li:nth-of-type(7){
+      margin:0;
+    }
+    .box_animal>.container>ul>li>.main_txt{
+      font-weight:600;
+    }
+    .box_animal>.container>ul>li>svg{
+      width:95px; height:80px; padding:15px 0 0 0; 
+    }
+    .box_animal>.container>ul>li:nth-child(1)>svg{
+      padding-left:10px;
+    }
+    .box_animal>.container>ul>li:nth-child(2)>svg{
+      padding-top:25px;
+    }
+    .box_animal>.container>ul>li:nth-child(3)>svg{
+      padding-left:20px;
+    }
+    .box_animal>.container>ul>li:nth-child(4)>svg{
+      padding-left:10px;
+    }
+    .box_animal>.container>ul>li:nth-child(6)>svg{
+      padding-left:20px;
+    }
+    .box_animal>.container>ul>li:nth-child(7)>svg{
+      padding-left:10px;
+    }
+
+
+
+
+
+    .box_animal>.container>ul>li>h4{
+      font-weight:bold; font-size:30px;
+    }
+    /* news */
+    .news{
+      height:600px;
+    }
+    .news>.title{
+      padding:72px 0 50px 50px;
+    }
+    .news>.title>a>.icon{
+      display: inline-block; width:20px; height:20px; background:url(./images/icon_set.png) no-repeat; border-radius:50px; background-position:-274px
+    }
+    .news>.title>a>.eng{
+      display: inline-block; font-weight:bold; font-size:30px;
+    }
+    .news>.news_all{
+      display: flex; justify-content: center;
+    }
+    .news>.news_all>.news02{
+      padding:0 20px;
+    }
+    .news01>.news.list,
+    .news02>.news.list,
+    .news03>.news.list{
+      height:150px;
+    }
+    .news01>.news.list>img,
+    .news02>.news.list>img,
+    .news03>.news.list>img{
+      width:380px; height:223px;
+    }
+    .news01>.news.list>.year,
+    .news02>.news.list>.year,
+    .news03>.news.list>.year{
+      font-family:'noto sans korean'; font-weight:600; font-size:14px; color:#282828; padding:10px 0;
+    }
+    .news01>.news.list>.list,
+    .news02>.news.list>.list,
+    .news03>.news.list>.list{
+      font-family:'noto sans korean'; font-weight:600; font-size:18px; color:#282828; padding-bottom:23px; letter-spacing:-1px
+    }
+    .news01>.news.list>.main_txt,
+    .news02>.news.list>.main_txt,
+    .news03>.news.list>.main_txt{
+      font-family:'noto sans korean'; font-weight:400;
+    }

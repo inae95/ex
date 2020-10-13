@@ -1,0 +1,67 @@
+@charset 'utf-8';
+
+*{box-sizing:border-box}
+.clearfix::after{
+  content:''; display:block; clear:both;
+}
+.container{
+  width:1020px; margin:0 auto;
+}
+.main_tit{
+  font-family:'Noto Sans Korean'; font-weight:bold; font-size:30px; color:#282828; letter-spacing:-1px
+}
+.main_txt{
+  font-family:'Noto Sans Korean'; font-size:16px; color:#282828;letter-spacing:-1px 
+}
+.eng{
+  font-family:'roboto'; color:#282828
+}
+
+.wrap{
+  width:1280px; max-width:1980px; margin:0 auto;
+}
+    /* header */
+    .header{
+      height:130px; padding:0 50px; 
+    }
+    .header>{
+      height:100%;
+    }
+    .header>.logo{
+      float:left; width:182px; margin:43px 0;
+    }
+    .header>.nav{
+      display: inline; position: absolute; margin:0 0 0 164px;
+    }
+    .header>.nav>li{
+      display:inline-block; margin-top:59px;
+    }
+    .header>.nav>li>a{
+      padding:30px; font-weight:bold; font-size:15px;
+    }
+    .header>.sns{
+      float:right; display:flex; align-items:center; padding-top:53px;
+    }
+    .header>.sns>li{
+      display:inline-block;
+    }
+    .header>.sns>li:nth-child(1)>a{
+      text-align:center; font-size:15px; color:666666;
+    }
+    .header>.sns>li:nth-child(2){
+      margin:0 20px; width:30px;height:30px;
+      background: url("./images/icon_set.png") no-repeat; background-position:-191px;
+    }
+    .header>.sns>li:nth-child(3){
+      width:30px; height:30px;
+      background: url("./images/icon_set.png") no-repeat; background-position:-230px;
+    }
+    .header>.sns>li:nth-child(2)>a,
+    .header>.sns>li:nth-child(3)>a{
+      display: block;
+      text-indent:-999999px;
+    }
+
+    .header>.nav>li>a:hover{
+      color:#f1cb0c; font-weight: bolder;
+    }
